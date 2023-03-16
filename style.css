@@ -33,14 +33,21 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
 }
 
 nav a:hover {
-    color: #ccc;
+    transform: translate(-50%, -50%) rotate(360deg);
+    background-color: #fff;
+    color: #000000;
+    border-radius: 50%;
 }
 
 /* Main styles */
